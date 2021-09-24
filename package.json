@@ -1,0 +1,28 @@
+{
+  "name": "chatufrbdev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev":"nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adeniltonarcanjo/chatUfrbDev.git"
+  },
+  "author": "Adenilton Morais",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adeniltonarcanjo/chatUfrbDev/issues"
+  },
+  "homepage": "https://github.com/Adeniltonarcanjo/chatUfrbDev#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
