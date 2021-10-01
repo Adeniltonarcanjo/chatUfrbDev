@@ -25,7 +25,7 @@ Tela de chat:
 ![telaChat](https://user-images.githubusercontent.com/69324694/135663574-df9c9b34-1b82-4db5-9c1b-b4ac668c5742.png)
 
 
-A aplicação ainda não esta finalizada, faltando implementar o Elastic Load Balancing e o Redis, como sugestão  O Amazon ElastiCache para Redis:
+A aplicação ainda não está finalizada, faltando implementar o Elastic Load Balancing e o Redis, como sugestão  O Amazon ElastiCache para Redis:
 
 
 os aplicativos estão rodando em duas instancias com os endereços: http://3.83.182.215:3000/     e   http://54.173.141.133:3000/
