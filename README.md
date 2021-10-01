@@ -8,6 +8,10 @@ Uma arquitetura multservidor, no qual o cliente fará uma conexão WebSocket com
 
 Os aplicativos devem se comunicar entre si para redistribuir mensagens. Essa comunicação é necessária porque uma mensagem pode ser transmitida entre usuarios conectados em diferentes servidores. Para isso será necessario implementar uma maneira de gerenciar a conexão do cliente. Uma solução será utilizar o redis Pub / Sub.
 
+Arquitetura:
+
+![arquiteturaimagem](https://user-images.githubusercontent.com/69324694/135664817-be211a03-5e92-49a8-ad30-5de6f7ae8fd7.jpg)
+
 
 
 Aplicação em construção :
@@ -21,7 +25,11 @@ Tela de chat:
 ![telaChat](https://user-images.githubusercontent.com/69324694/135663574-df9c9b34-1b82-4db5-9c1b-b4ac668c5742.png)
 
 
-rodando no endereço : http://3.83.182.215:3000/
+A aplicação ainda não esta finalizada, faltando implementar o Elastic Load Balancing e o Redis, como sugestão  O Amazon ElastiCache para Redis:
+
+
+os aplicativos estão rodando em duas instancias com os endereços: http://3.83.182.215:3000/     e   http://54.173.141.133:3000/
+
 
 
 
