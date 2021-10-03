@@ -27,7 +27,7 @@ Tela de chat:
 
 A aplicação ainda não está finalizada, faltando implementar o Elastic Load Balancing e o Redis, como sugestão  O Amazon ElastiCache para Redis:
 
-Para usar a aplicação basta abrir uma das instancias em diferntes abas dos navegadores e entrar na mesma sala, e começar o bate papo. OBS, como o Redis ainda não foi implementado se abrir as abas em instancias diferentes não vai acontecer a troca de mensagem, pois os servidores ainda não estão mantendo a comunicação entre si.
+Para usar a aplicação basta abrir uma das instancias em diferntes abas dos navegadores e entrar na mesma sala, e começar o bate papo. OBS, como o Redis ainda não foi implementado se abrir as abas em instancias diferentes não vai acontecer a troca de mensagem, pois os servidores ainda não estão se comunicando.
 
 os aplicativos estão rodando em duas instancias com os endereços: http://3.83.182.215:3000/     e   http://54.173.141.133:3000/
 
