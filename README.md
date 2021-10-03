@@ -6,7 +6,7 @@ O projeto constitui em uma aplicação de chat real-time com Socket.IO. O aplica
 Resultado desejado:
 Uma arquitetura multservidor, no qual o cliente fará uma conexão WebSocket com um balanceador de carga que encaminha o tráfego para um grupo de servidores. Esses servidores serão responsavéis por gerenciar as conexões via WebSocket e os dados transmitidos por eles. Depois que uma conexão WebSocket é estabelecida com um servidor de aplicativos, essa conexão é mantida e os dados fluem para o aplicativo em ambas as direções. O balanceador de carga distribui solicitações para uma conexão WebSocket a servidores, o que significa que dois clientes podem estabelecer uma conexão WebSocket com diferentes servidores.
 
-Os aplicativos devem se comunicar entre si para redistribuir mensagens. Essa comunicação é necessária porque uma mensagem pode ser transmitida entre usuarios conectados em diferentes servidores. Será necessario implementar uma maneira de gerenciar a conexão do cliente garantido acomunicação entre os diferentes clientes em diferentes servidores e tornar o sistema escalavél . Uma solução será utilizar o Balanceador de carga e o redis.
+Os aplicativos devem se comunicar entre si para redistribuir mensagens. Essa comunicação é necessária porque uma mensagem pode ser transmitida entre usuarios conectados em diferentes servidores. Será necessario implementar uma maneira de gerenciar a conexão do cliente garantido acomunicação entre os diferentes clientes em diferentes servidores e tornar o sistema escalavél . Uma solução será utilizar o Balanceador de carga e o redis Pub/Sub que atua como Publish–subscribe para garatir a comunicação entre os servidores.
 
 Arquitetura:
 
